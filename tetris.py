@@ -3,16 +3,16 @@ from telethon.tl.types import Message
 import asyncio
 @loader.tds
 class TetrisAnimation(loader.Module):
-    strings = {"name": "Tetris Animation"}
+    strings = {"name": "Tetris Animation by @AstroModules"}
 
     async def itetriscmd(self, message: Message):
-        """Tetris Animation | inline"""
+        """Tetris Animation | Inline"""
         await self.inline.form(
-            text="Нажми на кнопку ниже, чтобы увидеть анимацию тетриса:",
+            text="💥 Нажмите на кнопку ниже, чтобы увидеть анимацию игры Tetris:",
             reply_markup=[
                 [
                     {
-                        "text": "❤️‍🔥",
+                        "text": "👀 Увидеть",
                         "callback": self.inline_animation
                     }
                 ]
@@ -69,7 +69,7 @@ class TetrisAnimation(loader.Module):
         await asyncio.sleep(0.7)
 
     async def tetriscmd(self, message: Message):
-        """Tetris Animation | No inline"""
+        """Tetris Animation | No Inline"""
         await message.edit("⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
         await asyncio.sleep(0.7)
         await message.edit("⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
