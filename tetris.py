@@ -126,14 +126,14 @@ class TetrisAnimation(loader.Module):
                 [
                     {
                         "text": "👀 Увидеть",
-                        "callback": self.inline_animation
+                        "callback": self.inline_animation_two
                     }
                 ]
             ],
             message=message
         )
     
-    async def inline_animation(self, message: Message):
+    async def inline_animation_two(self, message: Message):
         await utils.answer(message, "⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
         await asyncio.sleep(0.7)
         await utils.answer(message, "⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
