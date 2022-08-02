@@ -1,4 +1,4 @@
-__version__ = (1, 0, 0)
+__version__ = (1, 0, 2)
 from .. import loader, utils
 from telethon.tl.types import Message
 import asyncio
@@ -140,8 +140,24 @@ class TetrisAnimation(loader.Module):
         await asyncio.sleep(0.7)
         await utils.answer(message, "⬛️⬛️🟥⬛️🟥⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
         await asyncio.sleep(0.7)
+        await utils.answer(message, "⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️🟥⬛️🟥⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await asyncio.sleep(0.7)
+        await utils.answer(message, "⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛⬛️⬛⬛️⬛️ \n⬛️⬛️🟥⬛🟥⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await asyncio.sleep(0.7)
+        await utils.answer(message, "⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛⬛️⬛⬛️⬛️ \n⬛️⬛️⬛⬛⬛⬛️⬛️ \n⬛️⬛️🟥⬛🟥⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await asyncio.sleep(0.7)
 
     async def htetriscmd(self, message: Message):
         """Tetris Heart Animation | No Inline"""
-        await message.edit("⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await utils.answer(message, "⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await asyncio.sleep(0.7)
+        await utils.answer(message, "⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await asyncio.sleep(0.7)
+        await utils.answer(message, "⬛️⬛️🟥⬛️🟥⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await asyncio.sleep(0.7)
+        await utils.answer(message, "⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️🟥⬛️🟥⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await asyncio.sleep(0.7)
+        await utils.answer(message, "⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛⬛️⬛⬛️⬛️ \n⬛️⬛️🟥⬛🟥⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
+        await asyncio.sleep(0.7)
+        await utils.answer(message, "⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛⬛️⬛⬛️⬛️ \n⬛️⬛️⬛⬛⬛⬛️⬛️ \n⬛️⬛️🟥⬛🟥⬛️⬛️ \n⬛️⬛️⬛️🟥⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n⬛️⬛️⬛️⬛️⬛️⬛️⬛️ \n")
         await asyncio.sleep(0.7)
