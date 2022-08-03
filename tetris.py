@@ -1,4 +1,4 @@
-__version__ = (1, 8, 1)
+__version__ = (1, 8, 1, 1)
 from .. import loader, utils
 from telethon.tl.types import Message
 import asyncio
